@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import datetime
+from datetime import time
 
 def chicago_cleaning():
     df = pd.read_csv('chicago/cycling_safety_chicago.csv')
@@ -26,6 +28,10 @@ def denver_cleaning():
     #df.loc[df['MOST_SEVERE_INJURY'] == 'NO INDICATION OF INJURY', 'SEVERITY'] = 1
     dummies_df = pd.get_dummies(df[['HARMFUL_EVENT_SEQ_1', 'ROAD_LOCATION', 'ROAD_DESCRIPTION', 'ROAD_CONTOUR', 'ROAD_CONDITION', 'TU1_VEHICLE_TYPE', 'TU1_VEHICLE_MOVEMENT', 'TU1_DRIVER_ACTION', 'TU1_DRIVER_HUMANCONTRIBFACTOR', 'TU2_VEHICLE_TYPE']])
     df = pd.concat([dummies_df,df[['DISTRICT_ID', 'PEDESTRIAN_IND', 'SEVERITY']]], axis=1)
+    df['WEEKEND'] = 0
+    df.loc[df['FIRST_OCCURRENCE_DATE'].weekday() >= 5, 'WEEKEND'] = 1
+    df['EVENING'] = 0
+    df.loc[df['FIRST_OCCURRENCE_DATE'].time() >= time(hour=19), 'EVENING'] = 1
     df = df.dropna()
     return df
 def connecticut_cleaning():
