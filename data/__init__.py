@@ -1,1 +1,1 @@
-from dataset_cleaning import chicago_cleaning, denver_cleaning
+from dataset_cleaning import chicago_cleaning, denver_cleaning, connecticut_cleaning
