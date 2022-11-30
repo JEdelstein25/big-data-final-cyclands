@@ -1,0 +1,5 @@
+This work "Chicago Cycling Safety Data", is provided under Chicago Data Terms of Use.
+The original data has been provided by "City  of  Chicago" with the name "Traffic  crashes" and can be viewed online at <https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/13285ca-t3if, https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3, and https://data.cityofchicago.133org/Transportation/Traffic-Crashes-People/u6pd-qa9d> under the same license.
+You should have received a copy of the license along with this work. If not, please see <https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.

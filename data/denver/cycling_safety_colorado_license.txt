@@ -1,0 +1,5 @@
+This work "Denver Cycling Safety Data", is provided under Creative Commons Attribution 3.0 Unported License.
+The original data has been provided by "DRCOG, CDOT" with the name "Crashes" and can be viewed online at <tps://data.drcog.org/data?q=crash&categories[0]=Transportation> under the same license.
+You should have received a copy of the license along with this work. If not, please see <https://creativecommons.org/licenses/by/3.0/>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.

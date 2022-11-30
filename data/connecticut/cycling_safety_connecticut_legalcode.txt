@@ -1,0 +1,2 @@
+"This data repository enables users to query, analyze and print/export the data for research and informational purposes."
+extracted from Repository Users Guide at <https://www.ctcrash.uconn.edu/docs/Repository%20Users%20Guide.pdf>

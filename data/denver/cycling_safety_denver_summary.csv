@@ -1,0 +1,68 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2280 entries, 0 to 2279
+Data columns (total 49 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   Unnamed: 0                     2280 non-null   int64  
+ 1   OBJECTID_1                     2280 non-null   int64  
+ 2   INCIDENT_ID                    2280 non-null   float64
+ 3   OFFENSE_ID                     2280 non-null   int64  
+ 4   OFFENSE_CODE                   2280 non-null   int64  
+ 5   OFFENSE_CODE_EXTENSION         2280 non-null   int64  
+ 6   TOP_TRAFFIC_ACCIDENT_OFFENSE   2280 non-null   object 
+ 7   FIRST_OCCURRENCE_DATE          2280 non-null   object 
+ 8   LAST_OCCURRENCE_DATE           3 non-null      object 
+ 9   REPORTED_DATE                  2280 non-null   object 
+ 10  INCIDENT_ADDRESS               2280 non-null   object 
+ 11  GEO_X                          2236 non-null   float64
+ 12  GEO_Y                          2236 non-null   float64
+ 13  GEO_LON                        2236 non-null   float64
+ 14  GEO_LAT                        2236 non-null   float64
+ 15  DISTRICT_ID                    2270 non-null   float64
+ 16  PRECINCT_ID                    2236 non-null   float64
+ 17  NEIGHBORHOOD_ID                2236 non-null   object 
+ 18  BICYCLE_IND                    2280 non-null   float64
+ 19  PEDESTRIAN_IND                 2280 non-null   float64
+ 20  HARMFUL_EVENT_SEQ_1            2280 non-null   object 
+ 21  HARMFUL_EVENT_SEQ_2            2280 non-null   object 
+ 22  HARMFUL_EVENT_SEQ_3            2280 non-null   object 
+ 23  ROAD_LOCATION                  2280 non-null   object 
+ 24  ROAD_DESCRIPTION               2280 non-null   object 
+ 25  ROAD_CONTOUR                   2280 non-null   object 
+ 26  ROAD_CONDITION                 2280 non-null   object 
+ 27  LIGHT_CONDITION                2280 non-null   object 
+ 28  TU1_VEHICLE_TYPE               2280 non-null   object 
+ 29  TU1_TRAVEL_DIRECTION           2280 non-null   object 
+ 30  TU1_VEHICLE_MOVEMENT           2280 non-null   object 
+ 31  TU1_DRIVER_ACTION              2280 non-null   object 
+ 32  TU1_DRIVER_HUMANCONTRIBFACTOR  2280 non-null   object 
+ 33  TU1_PEDESTRIAN_ACTION          2280 non-null   object 
+ 34  TU2_VEHICLE_TYPE               2280 non-null   object 
+ 35  TU2_TRAVEL_DIRECTION           2280 non-null   object 
+ 36  TU2_VEHICLE_MOVEMENT           2280 non-null   object 
+ 37  TU2_DRIVER_ACTION              2280 non-null   object 
+ 38  TU2_DRIVER_HUMANCONTRIBFACTOR  2280 non-null   object 
+ 39  TU2_PEDESTRIAN_ACTION          2280 non-null   object 
+ 40  SERIOUSLY_INJURED              2277 non-null   float64
+ 41  FATALITIES                     2277 non-null   float64
+ 42  FATALITY_MODE_1                2280 non-null   object 
+ 43  FATALITY_MODE_2                2280 non-null   object 
+ 44  SERIOUSLY_INJURED_MODE_1       2280 non-null   object 
+ 45  SERIOUSLY_INJURED_MODE_2       2280 non-null   object 
+ 46  Date                           2280 non-null   object 
+ 47  Latitude                       2236 non-null   float64
+ 48  Longitude                      2236 non-null   float64
+dtypes: float64(13), int64(5), object(31)
+memory usage: 872.9+ KB
+
+---------------------------------
+
+,Unnamed: 0,OBJECTID_1,INCIDENT_ID,OFFENSE_ID,OFFENSE_CODE,OFFENSE_CODE_EXTENSION,GEO_X,GEO_Y,GEO_LON,GEO_LAT,DISTRICT_ID,PRECINCT_ID,BICYCLE_IND,PEDESTRIAN_IND,SERIOUSLY_INJURED,FATALITIES,Latitude,Longitude
+count,2280.0,2280.0,2280.0,2280.0,2280.0,2280.0,2236.0,2236.0,2236.0,2236.0,2270.0,2236.0,2280.0,2280.0,2277.0,2277.0,2236.0,2236.0
+mean,86586.81184210526,86587.81184210526,1966160583.4232457,196616058396642.03,5431.73201754386,0.13903508771929823,3147616.0433810377,1691957.0961538462,-104.97514683894052,39.73204557941002,3.7484581497797356,392.3340787119857,1.0078947368421052,0.002631578947368421,0.11857707509881422,0.00878348704435661,39.73204557941002,-104.97514683894052
+std,49509.06756842264,49509.06756842264,1232964300.0608761,123296430006088.14,16.71889340064214,0.4448160168067274,13176.969441427329,11081.64427389373,0.04686487255596491,0.030411856067970557,1.8736381395965518,187.93941315512475,0.10231608085877887,0.05124261321059915,0.33008505968479973,0.09332825231274193,0.030411856067970557,0.04686487255596491
+min,228.0,229.0,20134504.0,2013450454411.0,5401.0,0.0,3115141.0,1648935.0,-105.091299696,39.6144066085,1.0,111.0,1.0,0.0,0.0,0.0,39.6144066085,-105.091299696
+25%,43495.25,43496.25,2014352342.5,201435234304410.25,5441.0,0.0,3140735.0,1685624.0,-104.999493002,39.714727756,2.0,222.0,1.0,0.0,0.0,0.0,39.714727756,-104.999493002
+50%,83598.5,83599.5,2016300989.5,201630099004210.5,5441.0,0.0,3144617.0,1694853.0,-104.9857867945,39.740025316,3.0,323.0,1.0,0.0,0.0,0.0,39.740025316,-104.9857867945
+75%,129181.5,129182.5,2018188101.5,201818810204310.0,5441.0,0.0,3152144.0,1698874.5,-104.95920910749999,39.751192692775,6.0,611.0,1.0,0.0,0.0,0.0,39.751192692775,-104.95920910749999
+max,176945.0,176946.0,20189514883.0,2018951488354410.0,5441.0,3.0,3224287.0,1731094.0,-104.701330311,39.8379569026,7.0,759.0,4.0,1.0,2.0,1.0,39.8379569026,-104.701330311

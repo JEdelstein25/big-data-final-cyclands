@@ -1,0 +1,74 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5778 entries, 0 to 5777
+Data columns (total 55 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   Unnamed: 0                     5778 non-null   int64  
+ 1   CRASH_RECORD_ID                5778 non-null   object 
+ 2   RD_NO                          5744 non-null   object 
+ 3   CRASH_DATE_EST_I               283 non-null    object 
+ 4   CRASH_DATE                     5778 non-null   object 
+ 5   POSTED_SPEED_LIMIT             5778 non-null   int64  
+ 6   TRAFFIC_CONTROL_DEVICE         5778 non-null   object 
+ 7   DEVICE_CONDITION               5778 non-null   object 
+ 8   WEATHER_CONDITION              5778 non-null   object 
+ 9   LIGHTING_CONDITION             5778 non-null   object 
+ 10  FIRST_CRASH_TYPE               5778 non-null   object 
+ 11  TRAFFICWAY_TYPE                5778 non-null   object 
+ 12  LANE_CNT                       2869 non-null   float64
+ 13  ALIGNMENT                      5778 non-null   object 
+ 14  ROADWAY_SURFACE_COND           5778 non-null   object 
+ 15  ROAD_DEFECT                    5778 non-null   object 
+ 16  REPORT_TYPE                    5621 non-null   object 
+ 17  CRASH_TYPE                     5778 non-null   object 
+ 18  INTERSECTION_RELATED_I         2096 non-null   object 
+ 19  NOT_RIGHT_OF_WAY_I             41 non-null     object 
+ 20  HIT_AND_RUN_I                  1421 non-null   object 
+ 21  DAMAGE                         5778 non-null   object 
+ 22  DATE_POLICE_NOTIFIED           5778 non-null   object 
+ 23  PRIM_CONTRIBUTORY_CAUSE        5778 non-null   object 
+ 24  SEC_CONTRIBUTORY_CAUSE         5778 non-null   object 
+ 25  STREET_NO                      5778 non-null   int64  
+ 26  STREET_DIRECTION               5778 non-null   object 
+ 27  STREET_NAME                    5778 non-null   object 
+ 28  BEAT_OF_OCCURRENCE             5778 non-null   float64
+ 29  PHOTOS_TAKEN_I                 46 non-null     object 
+ 30  STATEMENTS_TAKEN_I             185 non-null    object 
+ 31  DOORING_I                      1012 non-null   object 
+ 32  WORK_ZONE_I                    43 non-null     object 
+ 33  WORK_ZONE_TYPE                 30 non-null     object 
+ 34  WORKERS_PRESENT_I              12 non-null     object 
+ 35  NUM_UNITS                      5756 non-null   float64
+ 36  MOST_SEVERE_INJURY             5756 non-null   object 
+ 37  INJURIES_TOTAL                 5756 non-null   float64
+ 38  INJURIES_FATAL                 5756 non-null   float64
+ 39  INJURIES_INCAPACITATING        5756 non-null   float64
+ 40  INJURIES_NON_INCAPACITATING    5756 non-null   float64
+ 41  INJURIES_REPORTED_NOT_EVIDENT  5756 non-null   float64
+ 42  INJURIES_NO_INDICATION         5756 non-null   float64
+ 43  INJURIES_UNKNOWN               5756 non-null   float64
+ 44  CRASH_HOUR                     5778 non-null   int64  
+ 45  CRASH_DAY_OF_WEEK              5778 non-null   int64  
+ 46  CRASH_MONTH                    5778 non-null   int64  
+ 47  LATITUDE                       5778 non-null   float64
+ 48  LONGITUDE                      5778 non-null   float64
+ 49  LOCATION                       5778 non-null   object 
+ 50  Date                           5778 non-null   object 
+ 51  Latitude                       5778 non-null   float64
+ 52  Longitude                      5778 non-null   float64
+ 53  geometry                       5778 non-null   object 
+ 54  index_right                    5778 non-null   int64  
+dtypes: float64(14), int64(7), object(34)
+memory usage: 2.4+ MB
+
+---------------------------------
+
+,Unnamed: 0,POSTED_SPEED_LIMIT,LANE_CNT,STREET_NO,BEAT_OF_OCCURRENCE,NUM_UNITS,INJURIES_TOTAL,INJURIES_FATAL,INJURIES_INCAPACITATING,INJURIES_NON_INCAPACITATING,INJURIES_REPORTED_NOT_EVIDENT,INJURIES_NO_INDICATION,INJURIES_UNKNOWN,CRASH_HOUR,CRASH_DAY_OF_WEEK,CRASH_MONTH,LATITUDE,LONGITUDE,Latitude,Longitude,index_right
+count,5778.0,5778.0,2869.0,5778.0,5778.0,5756.0,5756.0,5756.0,5756.0,5756.0,5756.0,5756.0,5756.0,5778.0,5778.0,5778.0,5778.0,5778.0,5778.0,5778.0,5778.0
+mean,205803.84821737625,29.05590169608861,2.444057162774486,2836.5721703011423,1417.1829352717202,2.0138985406532313,0.6718207088255733,0.002779708130646282,0.08964558721334259,0.46108408617095203,0.11831132731063239,1.488533703961084,0.0,14.410003461405331,4.15472481827622,7.341467635860159,41.89299854309415,-87.67610422705624,41.89299854309415,-87.67610422705624,0.0
+std,115493.91119268592,4.846741431278621,3.366515689129529,2262.6846335284504,650.6170929460885,0.18116723425508088,0.494464461017822,0.05265418329277651,0.2881206900913518,0.5102396900682945,0.3262162262299097,0.7922565320595593,0.0,4.811843148062168,1.8790535670523099,2.6940617211032967,0.06756819002555785,0.04626095695776545,0.06756819002555785,0.04626095695776545,0.0
+min,135.0,0.0,0.0,1.0,111.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,41.652624076,-87.845001322,41.652624076,-87.845001322,0.0
+25%,108179.5,30.0,2.0,1018.5,1021.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,11.0,3.0,6.0,41.86726628025,-87.70603560325,41.86726628025,-87.70603560325,0.0
+50%,205045.0,30.0,2.0,2351.0,1433.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,15.0,4.0,8.0,41.9015624925,-87.66845901,41.9015624925,-87.66845901,0.0
+75%,306160.75,30.0,3.0,4180.0,1911.0,2.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,18.0,6.0,9.0,41.93851175025,-87.6440812195,41.93851175025,-87.6440812195,0.0
+max,406798.0,99.0,99.0,13330.0,2535.0,7.0,3.0,1.0,2.0,3.0,2.0,10.0,0.0,23.0,7.0,12.0,42.022247905,-87.52832667,42.022247905,-87.52832667,0.0

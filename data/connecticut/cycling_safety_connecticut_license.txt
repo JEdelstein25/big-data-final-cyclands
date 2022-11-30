@@ -1,0 +1,5 @@
+This work "Colorado Cycling Safety Data", is provided for research or informational purposes.
+The original data has been provided by "Connecticut Transportation Safety Research Center" with the name "Connecticut crash data repository" and can be viewed online at <https://www.ctcrash.137uconn.edu/> under the same license.
+You should have received a copy of the license along with this work. If not, please see <https://www.ctcrash.uconn.edu/docs/Repository%20Users%20Guide.pdf>.
+The adapted version of the cycling safety data has been been created by Miguel Costa, Carlos Roque, Manuel Marques, and Filipe Moura.
+No warranties are given.
